@@ -1,17 +1,30 @@
-* {
-  margin:0px;
-  padding:0px;
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+  background-color: #f0f8ff;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+h1 {
+  color: #4CAF50;
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+#description {
+  color: #333;
+  font-size: 18px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
 }
